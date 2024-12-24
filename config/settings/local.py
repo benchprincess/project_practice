@@ -15,7 +15,7 @@ DATABASES = {
         'HOST': ENV.get('POSTGREST_HOST', 'localhost'),
         'NAME': ENV.get('POSTGRES_DBNAME', 'oz_practice'),
         'USER': ENV.get('POSTGRES_USER', 'postgres'),
-        'PASSWORD': ENV.get('POSTGRES_PASSWORD', 'postgres'),
+        'PASSWORD': ENV.get('POSTGRES_PASSWORD', '900326'),
         'PORT': ENV.get('POSTGRES_PORT', 5432),
     }
 }
